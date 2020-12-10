@@ -1,10 +1,10 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./sobrecursos.css";
-import cursos from "../../assets/img/imagen2.jpg"
+import cursos from "../../assets/img/imagen2.jpg";
 
-function SobreCursos (){
-    return(
-        <section className="cursos container d-flex align-items-center" id="cursos">
+function SobreCursos() {
+  return (
+    <section className="cursos container d-flex align-items-center" id="cursos">
       <div className="row align-items-center">
         <picture className="col-md-6">
           <img
@@ -26,11 +26,13 @@ function SobreCursos (){
               comodidad de tu hogar, el horario lo escoges tú.
             </p>
           </article>
-          <Link span className="botones" to="registro">inscribirse</Link>
+          <Link span className="botones" to="registro">
+            inscribirse
+          </Link>
         </div>
       </div>
     </section>
-    );
+  );
 }
 
 export default SobreCursos;

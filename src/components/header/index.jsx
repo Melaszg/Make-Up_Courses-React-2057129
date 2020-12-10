@@ -1,17 +1,17 @@
 import "./header.css";
 import logo from "../../assets/img/logo.png";
 
-function Header(){
+function Header() {
   const navbaritems = ["cursos", "nosotras", "técnicas"];
 
-    return (
-        <main className="home">
+  return (
+    <main className="home">
       <div className="container">
         <header className="py-2">
           <nav className="navbar navbar-expand-lg navbar-dark">
-            <a href="#" className="navbar-brand"
-              ><img src={logo} width="130px" alt="Make-Up Courses"
-            /></a>
+            <a href="#" className="navbar-brand">
+              <img src={logo} width="130px" alt="Make-Up Courses" />
+            </a>
             <button
               className="navbar-toggler"
               data-toggle="collapse"
@@ -23,9 +23,11 @@ function Header(){
             <div className="collapse navbar-collapse" id="menu">
               <ul className="navbar-nav ml-auto main-menu">
                 {navbaritems.map((item, value) => (
-                  <li menus = {value} className="nav-item">
-                  <a href={`#${item}`} className="nav-link text-white">{item}</a>
-                </li>
+                  <li menus={value} className="nav-item">
+                    <a href={`#${item}`} className="nav-link text-white">
+                      {item}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </div>
@@ -33,7 +35,7 @@ function Header(){
         </header>
       </div>
     </main>
-    );
+  );
 }
 
 export default Header;

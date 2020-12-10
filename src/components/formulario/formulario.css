@@ -49,7 +49,7 @@
   cursor: pointer;
 }
 
-.botonregistro :hover{
+.botonregistro :hover {
   color: white;
   background: black;
   transition: ease-in-out 0.2s;
@@ -69,5 +69,4 @@
     font-size: 20px;
     padding: 7px 7px 7px;
   }
- }
- 
+}

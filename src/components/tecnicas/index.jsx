@@ -1,14 +1,13 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./tecnicas.css";
 import Strobing from "../../assets/img/strobing.png";
 import Baking from "../../assets/img/baking.png";
 import Contouring from "../../assets/img/contouring.png";
 import Mancha from "../../assets/img/mancha.png";
 
-
-function Tecnicas(){
-    return (
-        <section className="tecnicas" id="técnicas">
+function Tecnicas() {
+  return (
+    <section className="tecnicas" id="técnicas">
       <div className="container">
         <h2 className="text-center">Técnicas De Maquillaje</h2>
         <div className="row">
@@ -30,7 +29,9 @@ function Tecnicas(){
               <div className="text-center">
                 <img src={Baking} width="250px" alt="" />
               </div>
-              <h4 className="text-center"><span className="subtitulo">Baking</span></h4>
+              <h4 className="text-center">
+                <span className="subtitulo">Baking</span>
+              </h4>
               <p className="text-justify">
                 Busca disimular las imperfecciones como manchas, ojeras y líneas
                 de expresión.
@@ -51,11 +52,13 @@ function Tecnicas(){
           </ul>
         </div>
         <div className="text-center">
-          <Link span className="boton3" to="blog">Ver Más</Link>
+          <Link span className="boton3" to="blog">
+            Ver Más
+          </Link>
         </div>
       </div>
     </section>
-    );
+  );
 }
 
 export default Tecnicas;
