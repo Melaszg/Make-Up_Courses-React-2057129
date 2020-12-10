@@ -1,13 +1,14 @@
+import {Link} from "react-router-dom";
 import "./tecnicas.css";
-import Strobing from "../../../assets/img/strobing.png";
-import Baking from "../../../assets/img/baking.png";
-import Contouring from "../../../assets/img/contouring.png";
-import Mancha from "../../../assets/img/mancha.png";
+import Strobing from "../../assets/img/strobing.png";
+import Baking from "../../assets/img/baking.png";
+import Contouring from "../../assets/img/contouring.png";
+import Mancha from "../../assets/img/mancha.png";
 
 
 function Tecnicas(){
     return (
-        <section className="tecnicas" id="Tecnicas">
+        <section className="tecnicas" id="técnicas">
       <div className="container">
         <h2 className="text-center">Técnicas De Maquillaje</h2>
         <div className="row">
@@ -50,7 +51,7 @@ function Tecnicas(){
           </ul>
         </div>
         <div className="text-center">
-          <a span className="boton3" href="https://co.pinterest.com/makeupcourses20/boards/">Ver Más</a>
+          <Link span className="boton3" to="blog">Ver Más</Link>
         </div>
       </div>
     </section>

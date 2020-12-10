@@ -1,12 +1,12 @@
 import "./sobrenosotras.css"
-import Mariana from "../../../assets/img/Mariana.png"
-import Camila from "../../../assets/img/Camila.png"
-import Isabella from "../../../assets/img/Isabella.png"
-import Melany from "../../../assets/img/Melany.png";
+import Mariana from "../../assets/img/Mariana.png"
+import Camila from "../../assets/img/Camila.png"
+import Isabella from "../../assets/img/Isabella.png"
+import Melany from "../../assets/img/Melany.png";
 
 function SobreNosotras(){
     return (
-        <section className="sobrenosotras" id="Nosotras">
+        <section className="sobrenosotras" id="nosotras">
         <section className="container">
           <div className="row align-items-center">
             <div className="col-md-6">

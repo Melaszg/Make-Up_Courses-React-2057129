@@ -1,8 +1,9 @@
+import {Link} from "react-router-dom";
 import "./banner.css";
 
 function Banner (){
     return(
-        <section class="banner">
+        <section className="banner">
       <div
         className="container contenido d-flex justify-content-center flex-column align-items-center">
         <div className="container info-inicio">
@@ -12,7 +13,7 @@ function Banner (){
           Aprende sobre nuevas tendencias en maquillaje y sumérgete en<br />este
           increíble mundo.
         </p>
-        <a span className="boton" href="#">inscribirse</a>
+        <Link span className="boton" to="registro">inscribirse</Link>
       </div>
       </div>
     </section>

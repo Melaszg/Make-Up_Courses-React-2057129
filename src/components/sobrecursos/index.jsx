@@ -1,9 +1,10 @@
+import {Link} from "react-router-dom";
 import "./sobrecursos.css";
-import cursos from "../../../assets/img/imagen2.jpg"
+import cursos from "../../assets/img/imagen2.jpg"
 
 function SobreCursos (){
     return(
-        <section className="cursos container d-flex align-items-center" id="Cursos">
+        <section className="cursos container d-flex align-items-center" id="cursos">
       <div className="row align-items-center">
         <picture className="col-md-6">
           <img
@@ -25,7 +26,7 @@ function SobreCursos (){
               comodidad de tu hogar, el horario lo escoges tú.
             </p>
           </article>
-          <a span className="botones" href="#">inscribirse</a>
+          <Link span className="botones" to="registro">inscribirse</Link>
         </div>
       </div>
     </section>

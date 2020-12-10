@@ -1,14 +1,16 @@
-import "./home.css";
-import logo from "../../../assets/img/logo.png";
+import "./header.css";
+import logo from "../../assets/img/logo.png";
 
-function Home(){
+function Header(){
+  const navbaritems = ["cursos", "nosotras", "técnicas"];
+
     return (
         <main className="home">
       <div className="container">
         <header className="py-2">
           <nav className="navbar navbar-expand-lg navbar-dark">
             <a href="#" className="navbar-brand"
-              ><img className="img-fluid" src={logo} width="130px" alt="Make-Up Courses"
+              ><img src={logo} width="130px" alt="Make-Up Courses"
             /></a>
             <button
               className="navbar-toggler"
@@ -20,15 +22,11 @@ function Home(){
             </button>
             <div className="collapse navbar-collapse" id="menu">
               <ul className="navbar-nav ml-auto main-menu">
-                <li className="nav-item">
-                  <a href="#Cursos" className="nav-link text-white">Cursos</a>
+                {navbaritems.map((item, value) => (
+                  <li menus = {value} className="nav-item">
+                  <a href={`#${item}`} className="nav-link text-white">{item}</a>
                 </li>
-                <li className="nav-item">
-                  <a href="#Nosotras" className="nav-link text-white">Nosotras</a>
-                </li>
-                <li className="nav-item">
-                  <a href="#Tecnicas" className="nav-link text-white">Técnicas</a>
-                </li>
+                ))}
               </ul>
             </div>
           </nav>
@@ -38,4 +36,4 @@ function Home(){
     );
 }
 
-export default Home;
+export default Header;

@@ -1,8 +1,8 @@
 import "./footer.css";
-import logo from "../../../assets/img/logo.png";
-import Instagram from "../../../assets/img/instagram.png";
-import Pinterest from "../../../assets/img/pinterest.png";
-import Email from "../../../assets/img/email.png";
+import logo from "../../assets/img/logo.png";
+import Instagram from "../../assets/img/instagram.png";
+import Pinterest from "../../assets/img/pinterest.png";
+import Email from "../../assets/img/email.png";
 
 function Footer(){
     return (
