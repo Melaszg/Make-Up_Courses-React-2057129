@@ -7,7 +7,7 @@ function HeaderBlog() {
   return (
     <section className="home-blog">
       <header className="container py-2">
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-dark">
           <h1 className="navbar-brand">
             <a href="/">
               <img
