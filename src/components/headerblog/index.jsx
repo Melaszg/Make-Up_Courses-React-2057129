@@ -2,7 +2,7 @@ import "./headerblog.css";
 import logo from "../../assets/img/logo.png";
 
 function HeaderBlog() {
-  const navbaritemsblog = ["maquillaje", "piel"];
+  const navbaritemsblog = ["maquillaje", "piel", "cursos"];
 
   return (
     <section className="home-blog">
