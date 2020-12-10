@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.332e86a5.chunk.css",
+    "main.js": "./static/js/main.1b58a1cc.chunk.js",
+    "main.js.map": "./static/js/main.1b58a1cc.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b1be23e4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b1be23e4.js.map",
+    "static/js/2.1c4560ad.chunk.js": "./static/js/2.1c4560ad.chunk.js",
+    "static/js/2.1c4560ad.chunk.js.map": "./static/js/2.1c4560ad.chunk.js.map",
+    "static/js/3.b75fcb1c.chunk.js": "./static/js/3.b75fcb1c.chunk.js",
+    "static/js/3.b75fcb1c.chunk.js.map": "./static/js/3.b75fcb1c.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.332e86a5.chunk.css.map": "./static/css/main.332e86a5.chunk.css.map",
+    "static/js/2.1c4560ad.chunk.js.LICENSE.txt": "./static/js/2.1c4560ad.chunk.js.LICENSE.txt",
+    "static/media/Camila.608367da.png": "./static/media/Camila.608367da.png",
+    "static/media/DiseñosMaquillaje.c15a456b.png": "./static/media/DiseñosMaquillaje.c15a456b.png",
+    "static/media/Isabella.3f5908de.png": "./static/media/Isabella.3f5908de.png",
+    "static/media/Mariana.69b1f010.png": "./static/media/Mariana.69b1f010.png",
+    "static/media/MascarillasPiel.a3c5fe2a.png": "./static/media/MascarillasPiel.a3c5fe2a.png",
+    "static/media/Melany.e3620493.png": "./static/media/Melany.e3620493.png",
+    "static/media/TipsMaquillaje.44771380.png": "./static/media/TipsMaquillaje.44771380.png",
+    "static/media/TipsPiel.3dc1568b.png": "./static/media/TipsPiel.3dc1568b.png",
+    "static/media/baking.fdae8c78.png": "./static/media/baking.fdae8c78.png",
+    "static/media/contouring.f6d708cc.png": "./static/media/contouring.f6d708cc.png",
+    "static/media/banner.css": "./static/media/imagen1.e776583d.jpg",
+    "static/media/imagen2.fdfaaa43.jpg": "./static/media/imagen2.fdfaaa43.jpg",
+    "static/media/bannerblog.css": "./static/media/inicio.c3ffd095.png",
+    "static/media/logo.f125033f.png": "./static/media/logo.f125033f.png",
+    "static/media/formulario.css": "./static/media/registro.7a92c4e9.png",
+    "static/media/strobing.0f21fbb3.png": "./static/media/strobing.0f21fbb3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1be23e4.js",
+    "static/js/2.1c4560ad.chunk.js",
+    "static/css/main.332e86a5.chunk.css",
+    "static/js/main.1b58a1cc.chunk.js"
+  ]
+}
