@@ -6,7 +6,7 @@ import E404 from "../pages/e404";
 
 function Router(){
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="Make-Up_Courses-React-2057129">
         <Switch>
             <Route path="/" exact>
                 <Home />      
@@ -17,7 +17,7 @@ function Router(){
             <Route path="/registro" exact>
                 <Registro />
             </Route>
-            <Route path="/e404" exact>
+            <Route>
                 <E404 />
             </Route>
         </Switch>
