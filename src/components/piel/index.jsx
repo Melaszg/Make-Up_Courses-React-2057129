@@ -4,7 +4,7 @@ import TipsPiel from "../../assets/img/TipsPiel.png";
 
 function Piel() {
   return (
-    <section className="consejos" id="Piel">
+    <section className="consejos" id="piel">
       <div className="container">
         <h2 className="text-center my-5">Piel</h2>
         <div className="row flex-row flex-wrap text-center">

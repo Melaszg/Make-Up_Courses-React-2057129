@@ -4,7 +4,7 @@ import TipsMaquillaje from "../../assets/img/TipsMaquillaje.png";
 
 function Maquillaje() {
   return (
-    <section className="consejos" id="Maquillaje">
+    <section className="consejos" id="maquillaje">
       <div className="container">
         <h2 className="text-center my-5">Maquillaje</h2>
         <div className="row flex-row flex-wrap text-center">
